@@ -16,7 +16,7 @@ function displayToDoList(array) {
   array.forEach((inputs) => {
     DOMSelectors.toDoList.insertAdjacentHTML(
       "beforeend",
-      `<div class="card"><div class = "to-do-card">${inputs}</div>
+      `<div class="card"><div class = "to-do-card">${inputs}</div>  
     <button type ="submit" class="remove-button" id="remove-reminder"> Remove </button>
     </div>`
     );
